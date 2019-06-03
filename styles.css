@@ -1,0 +1,77 @@
+@import url('https://fonts.googleapis.com/css?family=Mallanna|Ramabhadra&display=swap');
+/* font-family: 'Ramabhadra', sans-serif;
+ font-family: 'Mallanna', sans-serif;*/
+
+*{
+    padding: 0;
+    margin: 0;
+    -webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box; 
+}
+body{
+    background-color: rgb(177, 154, 24);
+    color: rgb(132, 124, 139);
+}
+div{
+    width: 400px;
+    margin: 100px auto;
+    box-shadow: 0 0 3px rgba(0, 0, 0.5);
+    background-color: rgba(128, 128, 128, 0.356);
+}
+ul{
+    list-style: none;
+    margin:0;
+    padding: 0;
+}
+h3{
+    background-color: rgb(30, 30, 114);
+    color: white;
+    padding: 10px;
+    text-align: center;
+    text-transform: uppercase;
+    font-family: 'Ramabhadra', sans-serif; 
+}
+.done{
+    color: white;
+    text-decoration: line-through;
+}
+li{
+    background-color: rgba(65, 60, 60, 0.774);
+    height: 60px;
+    line-height: 60px;
+    padding: 0 0 0 20px;
+    font-family: 'Mallanna', sans-serif;
+    color:whitesmoke;
+}
+li:nth-child(2n){
+    background-color: rgba(106, 115, 122, 0.884);
+}
+input{
+    font-family: 'Mallanna', sans-serif;
+    font-size: 20px;
+    background-color: rgba(128, 128, 128, 0.281);
+    width: 100%;
+    padding: 10px 10px 10px 17px;
+    box-sizing: border-box;
+    border: none;
+    color:white;
+}
+::-webkit-input-placeholder{
+    color: white;
+}
+input:focus{
+    outline: none;
+}
+span{
+    height: 60px;
+    text-align: center;
+    width: 60px;
+    float: right;
+}
+div input .error{
+    color: red;
+    border-color: red;
+    border: 1px solid;
+
+}
